@@ -1,0 +1,35 @@
+Prompt-1:Generate the addition of 2 numbers in c
+#include <stdio.h>
+int main() {
+int num1, num2, sum;
+printf("Enter the first number: ");
+scanf("%d", &num1);
+printf("Enter the second number: ");
+scanf("%d", &num2);
+sum = num1 + num2;
+printf("The sum of %d and %d is %d.\n", num1, num2, sum);
+return 0;
+}                                                                                     
+Prompt-2:convert the above code into javascript 
+const prompt = require('prompt-sync')();
+const num1 = parseInt(prompt("Enter the first number: "));
+const num2 = parseInt(prompt("Enter the second number: "));
+const sum = num1 + num2;
+console.log(`The sum of ${num1} and ${num2} is ${sum}.`); 
+ Prompt-3:convert the above code into java 
+import java.util.Scanner;
+public class AddTwoNumbers {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the first number: ");
+        int num1 = scanner.nextInt();
+        System.out.print("Enter the second number: ");
+        int num2 = scanner.nextInt();
+        int sum = num1 + num2;
+        System.out.println("The sum of " + num1 + " and " + num2 + " is " + sum + ".");
+    }
+Prompt-4:convert the above code into python  
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+sum = num1 + num2
+print(f"The sum of {num1} and {num2} is {sum}.")  
